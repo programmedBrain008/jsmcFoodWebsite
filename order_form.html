@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<title>JSMC Food Court</title>
+    <meta name="author" content="Aarav Shah">
+	<meta name="description" content="The Place Where Delicious Meets Religion">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit-no">
+	<link rel="icon" type="image/png" href="/images/leftmenuimage.jpg">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    
+</head>
+
+<body>
+	<header id="mainheader">
+        <div class="container">
+            <div class="fixed-top">
+                <nav id="mainheader">
+                    <ul>
+                        <li><img src="/images/leftheaderimage2.png" alt="JSMC Logo" width=60 height=60/></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a target="_blank" href="http://jsmconline.org/about_us.php">About Us</a></li>
+                        <!-- <li><a target="_blank" href="http://jsmconline.org/">More Information</a></li> -->
+                    </ul>
+                </nav>
+            </div>
+        </div>  
+    </header>
+
+    <main role="main">
+        <div class="jumbotron jumbotron-order-form container-fluid">
+            <div class="">
+                <h2 class="display-3">Ready to Order?</h2>
+                <br>
+                <h4 class="display-5">Due to COVID-19, returns and exhanges are not allowed.</h3>
+                <h4 class="display-5">The available order pickup times are on Saturdays and Sundays from 10 A.M. to 12 P.M. <i>only</i> </h4>     
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="p-2 pt-md-4 pb-md-3 mx-auto text-center">
+                <h3 class="display-4">Your Order Information</h3>
+            </div>
+
+            <div class=row>
+                <div class="col-md-8 offset-2">
+                    <br>
+                    <br>
+                    <h4>Full Name</h4>
+                    <br>
+                    <form action="order_form.html" method="get">
+                        <div class="row">
+
+                            <div class="col-md-6 mb-4 form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="Your First Name">
+                            </div>
+                            <div class="col-md-6 mb-4 form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Your Last Name"
+                                value=""   >
+                            </div>
+                        </div>
+
+                        <br>
+                        <h4>Email</h4>
+                        <br>
+
+                        <div class="mb-3 form-group">
+                            <label for="email">Email</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">@</span>
+                                </div>
+                                <input type="text" class="form-control" id="email" placeholder="Your Email">
+                            </div>
+
+                        </div>
+
+                        <br>
+                        <h4>Phone Number</h4>
+                        <br>
+
+                        <div class="mb-4">
+                            <div class="row">
+                                <div class="col-md-6 mb-3 form-group">
+                                    <label for="phonenumber">Phone Number</label>
+                                    <input type="text" class="form-control" id="phonenumber" placeholder="Your Phone Number">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <br>
+                        <h4>Address</h4>
+                        <br>
+                        
+                        <div class="mb-3 form-group">
+                            <label for="streetaddress">Street</label>
+                            <input type="text" class="form-control" id="streetaddress" placeholder="Your Street Address">
+                        </div>
+
+                        <div class="mb-3 form-group">
+                            <div class="row">
+                                <div class="col-md-6 mb-3 form-group">
+                                    <label for="cityaddress">City</label>
+                                    <input type="text" class="form-control" id="cityaddress" placeholder="Your City">
+                                </div>
+                                <div class="col-md-6 mb-3 form-group">
+                                    <label for="stateaddress">State / Province</label>
+                                    <input type="text" class="form-control" id="stateaddress" placeholder="Your State / Province">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 form-group">
+                            <label for="zipaddress">Postal / Zip Code</label>
+                            <input type="text" class="form-control" id="zipaddress" placeholder="Your Postal / Zip Code">
+                        </div>
+
+                        <!-- The following code is for the remarks, but I later decided not to use them  -->
+                        <!-- <div class="mb-3">
+                            <div class="form-group">
+                                <label for="remarks">Remarks</label>
+                                <textarea class="form-control" id="remarks" rows="3">Type in any remarks here (optional)...</textarea>
+                            </div>
+                        </div> -->
+
+                        <br>
+                        <h4>Your Cart:</h4>
+                        <br>
+                        <div class="boxed">
+                            <div class="container">
+                                This is where the ordered items from the homepage will go using some kind of backend system to place the ordered items
+                                from the click appear in this box (temporary: just to show)
+                            </div>
+                        </div>
+
+
+                        <br>
+                        <h4>Credit Card Details</h4>
+                        <br>
+
+                        <div class="row">
+
+                            <div class="col-md-6 mb-4 form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="Your First Name">
+                            </div>
+                            <div class="col-md-6 mb-4 form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Your Last Name"
+                                value=""   >
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-6 mb-4 form-group">
+                                <label for="ccnumber">Credit Card Number</label>
+                                <input type="text" class="form-control" id="ccnumber" placeholder="Your Credit Card Number">
+                            </div>
+                            <div class="col-md-6 mb-4 form-group">
+                                <label for="securitycode">Security Code</label>
+                                <input type="text" class="form-control" id="securitycode" placeholder="CVC"
+                                value=""   >
+                            </div>
+                        </div>
+
+                        <div class="mb-3 form-group">
+                            <label for="expirationdate">Credit Card Expiration Date</label>
+                            <input type="text" class="form-control" id="expirationdate" placeholder="MM/YY">
+                        </div>
+
+                        <div class="mb-5">
+                            <div class="custom-control custom-checkbox">
+                                <br>
+                                <input type="checkbox" class="custom-control-input" id="saveOrderInfo">
+                                <label class="custom-control-label" for="saveOrderInfo">Remember Order Information</label>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-success btn-lg btn-block mb-3" type="submit">Place Order Now</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.js"></script> -->
+</body>
+</html>
